@@ -1,0 +1,13 @@
+<resources>
+
+	<string name="default_recipient">"default"</string>
+	<string name="send_message">SEND</string>
+	<string name="use_dictation">Dictate</string>
+	<string name="use_keyboard">Keyboard</string>
+	<string name="use_camera">Camera</string>
+	<string name="from_photos">Photos</string>
+
+</resources>
+
+
+	<string name=""></string>
