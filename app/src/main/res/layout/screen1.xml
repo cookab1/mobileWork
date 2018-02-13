@@ -1,24 +1,27 @@
-
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:layout_margin="16dp"
-              android:orientation="vertical">
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_margin="16dp"
+	android:orientation="vertical">
 
-      	<ImageButton
-              	android:id="@+id/field_camera"
-              	android:layout_width="match_parent"
-              	android:layout_height="0dp"
-		android:text="@string/use_camera"
-              	app:layout_constraintDimensionRatio="1:1" 
-              	android:src="@android:drawable/ic_menu_camera" />
+	<ImageButton
+			android:id="@+id/field_camera"
+			android:layout_width="match_parent"
+			android:layout_height="300dp"
+			android:text="@string/use_camera"
+			app:layout_constraintDimensionRatio="1:1"
+			android:src="@android:drawable/ic_menu_camera" />
 
 	<Button
-	      	android:id="@+id/field_photos"
-              	android:layout_width="match_parent"
-              	android:layout_height="0dp"
+		android:id="@+id/field_photos"
+		android:layout_width="match_parent"
+		android:layout_height="300dp"
 		android:text="@string/from_photos"
-              	app:layout_constraintDimensionRatio="1:1" />
+		android:textSize="50sp"
+		android:textAlignment="center"
+		android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+		app:layout_constraintDimensionRatio="1:1" />
 
 
 </LinearLayout>

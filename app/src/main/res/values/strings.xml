@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">mobileWork</string>
+
+	<string name="default_recipient">"default"</string>
+	<string name="send_message">SEND</string>
+	<string name="use_dictation">Dictate</string>
+	<string name="use_keyboard">Keyboard</string>
+	<string name="use_camera">Camera</string>
+	<string name="from_photos">Photos</string>
+
+	<string name="Test_Text">Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text </string>
+	<string name="Test_Date">2nd Munsday of the Wonth of Febril</string>
+	<string name="Test_Recipient">Ben Kenobi</string>
+
 </resources>
+
+
+	<!--<string name=""></string>-->
