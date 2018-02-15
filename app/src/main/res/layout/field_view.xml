@@ -3,9 +3,9 @@
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	xmlns:tools="http://schemas.android.com/tools"
 	android:layout_width="match_parent"
-              	android:layout_margin="16dp"
-              	android:layout_height="match_parent"
-              	android:orientation="vertical"
+	android:layout_margin="16dp"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
 	android:weightSum="1">
 
 
@@ -18,7 +18,8 @@
 		android:cropToPadding="true"
 		android:scaleType="centerInside"
 		app:layout_constraintTop_toTopOf="parent"
-		tools:layout_editor_absoluteX="8dp" />
+		tools:layout_editor_absoluteX="8dp"
+		tools:ignore="MissingConstraints" />
 	
 	<LinearLayout
 		android:id="@+id/Photo_Info"
@@ -27,7 +28,8 @@
 		app:layout_constraintTop_toBottomOf="@+id/field_photo"
 		android:orientation="horizontal"
 		tools:layout_editor_absoluteX="8dp"
-		android:layout_marginTop="0dp">
+		android:layout_marginTop="0dp"
+		tools:ignore="MissingConstraints">
 		
                 <TextView
                     style="?android:listSeparatorTextViewStyle"
@@ -57,7 +59,8 @@
 		tools:layout_editor_absoluteX="8dp"
 		android:layout_marginTop="0dp"
 		android:layout_marginBottom="8dp"
-		app:layout_constraintBottom_toTopOf="@+id/constraintLayout" />
+		app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
+		tools:ignore="MissingConstraints" />
 
 	<android.support.constraint.ConstraintLayout
 		android:layout_width="336dp"
@@ -67,7 +70,8 @@
 		tools:layout_editor_absoluteX="8dp"
 		app:layout_constraintBottom_toBottomOf="parent"
 		android:layout_marginBottom="8dp"
-		android:id="@+id/constraintLayout">
+		android:id="@+id/constraintLayout"
+		tools:ignore="MissingConstraints">
 
 		<TextView
 			android:id="@+id/sent_recipient"
