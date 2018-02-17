@@ -24,6 +24,7 @@
 	<string name="Test_Status">Pending...</string>
 	<string name="Test_Location">Boone, NC</string>
 	<string name="Test_Recipient">Ben Kenobi</string>
+	<string name="Test_Title">Field Title</string>
 
 </resources>
 
